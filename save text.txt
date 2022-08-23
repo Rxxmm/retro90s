@@ -1,0 +1,90 @@
+<section>
+    <div class="container reveal">
+      <h2>Music</h2>
+      <div class="text-container">
+        <div class="text-box">
+        </div>
+        <div class="text-box">
+          <h3>Streetwalker</h3>
+          <iframe 
+          src="https://open.spotify.com/embed/track/17unhA5Gnc1nLFdg3dKmuO?utm_source=generator" 
+          frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          <h3>OceanDrive</h3>
+          <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/02gySWUFk5JT4gMguGAhdO?utm_source=generator" 
+          frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="text-box">
+          <p></p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container reveal">
+      <h2>Albums</h2>
+      <div class="text-container">
+        <div class="text-box2">
+          <img src="https://www.retro-synthwave.com/wp-content/uploads/2022/04/post-INSTA-1.jpg" alt="Dawn log">
+          <button type="button" onclick="window.location.href='https://open.spotify.com/album/2nLOHgzXzwFEpl62zAgCEC?si=y_oRu-gYTrqmIGzJJNpF8Q'">Dawn FM</button>
+        </div>
+          <div class="text-box2">
+          </div>
+            <div class="text-box2">
+              <img src="future.jpg" alt="future logo">
+              <button type="button" onclick="window.location.href='https://open.spotify.com/album/7bvzc53iIULMZfSJYPFkZ9?si=ok58eGXjRCSxUYDtcMdwVA'">future</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+hover
+
+<section>
+    <div class="container reveal">
+      <h2>Music</h2>
+      <div class="text-container">
+        <div class="text-box">
+          <h3>Streetwalker</h3>
+          <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/track/17unhA5Gnc1nLFdg3dKmuO?utm_source=generator" 
+          frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="text-box">
+          <h3>OceanDrive</h3>
+          <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/02gySWUFk5JT4gMguGAhdO?utm_source=generator" 
+          frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="text-box">
+          <h3>Valentine</h3>
+          <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/3oXGTMhSxVhiSnraV27P2q?utm_source=generator" 
+          frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container reveal">
+      <h2>Albums</h2>
+      <div class="text-container">
+        <div class="text-box2">
+          <img src="https://www.retro-synthwave.com/wp-content/uploads/2022/04/post-INSTA-1.jpg" alt="Dawn log" class="img">
+          <button type="button" onclick="window.location.href='https://open.spotify.com/album/2nLOHgzXzwFEpl62zAgCEC?si=y_oRu-gYTrqmIGzJJNpF8Q'">Dawn FM</button>
+        </div>
+        <div class="text-box2">
+          <img src="future.jpg" alt="future logo" class="img">
+          <button type="button" 
+          onclick="window.location.href='https://open.spotify.com/album/7bvzc53iIULMZfSJYPFkZ9?si=ok58eGXjRCSxUYDtcMdwVA'">
+          future</button>
+        </div>
+          <div class="text-box2">
+            <img src="https://i.scdn.co/image/ab67616d0000b273f912a799a38d988677d8a1fc" alt="Valentine logo" class="img">
+          <button type="button" 
+          onclick="window.location.href='https://open.spotify.com/album/01mkMMyGns25JZqy5AbUCP'">
+          Valentine</button>
+        </div>
+      </div>
+    </div>
+  </section>
