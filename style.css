@@ -1,10 +1,22 @@
 @font-face { font-family: outrun; src: url('Outrun\ future.otf'); } 
 @font-face { font-family: outrun; font-weight: bold; src: url('Outrun\ future\ Bold\ Italic.otf');}
+@font-face { font-family: radwave; font-weight: bold; src: url('RadwaveFont-Demo.otf');}
 
 * {
   margin: 0;
   padding: 0;
   font-family: outrun;
+}
+
+audio {
+  display: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #000000;
 }
 
 .hero {
@@ -48,7 +60,7 @@ button {
 
 button:hover {
     color:#00ebf3;
-    background-color: #7700ff;
+    background-color: #820686;
 }
 
 @media all and (max-width:30em){
@@ -71,9 +83,23 @@ h1 {
     font-size: 60px;
     margin: 10px 0 30px;
     line-height: 80px;
+    text-shadow: 5px 0px 2px rgba(18, 16, 19, 0.5),
+                -4px 0px 5px rgb(202, 99, 30), 
+                 5px 0px 10px rgb(162, 28, 172);
 }
 
-/* Sections */
+.album-title {
+  text-shadow: 5px 0px 2px rgba(255,0,255,0.5),
+                -4px 0px 5px rgba(187,187,187), 
+                 5px 0px 10px rgba(99,54,102);
+} 
+
+iframe {
+  width: 270px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
 
 section{
     min-height: 100vh;
@@ -99,7 +125,7 @@ section{
   }
   section:nth-child(3){
     color: #00ebf3;
-    background: url(https://images.hdqwalls.com/download/outrun-solus-14-1920x1080.jpg);
+    background: url(https://images.hdqwalls.com/download/road-to-retrowave-8k-vp-1920x1080.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -111,7 +137,7 @@ section{
   }
   section:nth-child(4){
     color: #00ebf3;
-    background: url(https://images.hdqwalls.com/download/synthwave-sun-nw-1920x1080.jpg);
+    background: url(https://images.hdqwalls.com/wallpapers/synthwave-aesthetic-corridor-4k-j1.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -131,15 +157,27 @@ section{
   section h2{
     font-size: 40px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;             
   }
   section .text-container{
      display: flex;
   }
   section .text-container .text-box{
-    margin: 20px;
-    padding: 30px;
-    background: #820686;
+    margin: 255px;
+    padding: 25px;
+    background: transparent;
+  }
+
+  section .text-container .text-box h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: radwave;
+    text-shadow: 5px 0px 2px rgba(255,0,255,0.5),
+                -4px 0px 5px rgba(0,255,191,0.5), 
+                 5px 0px 10px rgba(49,122,255,1),
+                 5px 0px 8px rgb(179 176 169);
   }
 
   section .text-container .text-boxx{
@@ -154,11 +192,37 @@ section{
     margin-bottom: 10px;
   }
 
-  section .text-container .text-box h3{
-    font-size: 30px;
-    text-align: center;
+  section .text-container .text-box2 {
+    margin: 258px;
+    padding: 25px;
+    background: transparent;
+  }
+
+  section .text-container .text-box2 h2{
+    font-size: 40px(2rem, 5vw, 5rem);
     text-transform: uppercase;
+    color: #fff;
     margin-bottom: 10px;
+    text-shadow: 5px 0px 2px rgba(255,0,255,0.5),
+                -4px 0px 5px rgba(0,255,191,0.5), 
+                 5px 0px 10px rgba(49,122,255,1);
+  }
+
+  section .text-container .text-box2 button {
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: #820686;
+    border: 1px solid rgb(0, 219, 248);
+    cursor: pointer;
+    text-decoration: none;
+    color: #fbfcfd;
+    transition: all 0.2ms;  
+ 
+  }
+ 
+  section .text-container .text-box2 button:hover {
+    color:#000000;
+    background-color: #ba55d3;
   }
   
   @media (max-width: 900px){
@@ -183,3 +247,24 @@ section{
     opacity: 1;
   }
 
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0);
+  border-radius: 14px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(202, 202, 203, 0.33);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
